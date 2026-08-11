@@ -1,0 +1,8 @@
+https://canlis.com -O ./canlis-website +*.canlis.com/* -v
+File generated automatically on Mon, 10 Aug 2026 09:43:52, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+
