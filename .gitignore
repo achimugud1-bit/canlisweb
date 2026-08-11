@@ -1,34 +1,21 @@
-```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+```gitignore
+# Build artifacts
 dist/
 build/
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+*.min.js
+*.min.css
+*.bundle.js
+*.map
 
 # Dependencies
-.venv/
-venv/
 node_modules/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
 
-# Logs and temp files
+# Logs and temporary files
 *.log
 *.tmp
-*.swp
-*.swo
+*.temp
 
-# Environment
+# Environment variables
 .env
 .env.local
 *.env.*
@@ -39,14 +26,25 @@ target/
 *.swp
 *.swo
 
-# System
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.Python
+*.egg-info/
+.eggs/
 
 # Compressed files
 *.zip
