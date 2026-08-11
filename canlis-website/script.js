@@ -14,13 +14,13 @@ const headerHTML = `
                     EXPLORE ▾
                 </button>
                 <div class="explore-menu" id="exploreMenu" role="menu" aria-label="Explore">
-                    <a href="menu/index.html">Menu</a>
-                    <a href="story/index.html">Our Story</a>
-                    <a href="wine/index.html">Wine</a>
-                    <a href="lounge/index.html">The Lounge</a>
-                    <a href="careers/index.html">Careers</a>
-                    <a href="../giftcards.canlis.com/index.html">Gift Cards</a>
-                    <a href="private-events/index.html">Private Events</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="our-story.html">Our Story</a>
+                    <a href="wine.html">Wine</a>
+                    <a href="lounge.html">The Lounge</a>
+                    <a href="careers.html">Careers</a>
+                    <a href="gift-cards.html">Gift Cards</a>
+                    <a href="private-events.html">Private Events</a>
                 </div>
             </div>
 
@@ -32,13 +32,13 @@ const headerHTML = `
         </div>
 
         <nav class="mobile-nav" id="mobileNav">
-            <a href="menu/index.html">Menu</a>
-            <a href="story/index.html">Our Story</a>
-            <a href="wine/index.html">Wine</a>
-            <a href="lounge/index.html">The Lounge</a>
-            <a href="careers/index.html">Careers</a>
-            <a href="../giftcards.canlis.com/index.html">Gift Cards</a>
-            <a href="private-events/index.html">Private Events</a>
+            <a href="menu.html">Menu</a>
+            <a href="our-story.html">Our Story</a>
+            <a href="wine.html">Wine</a>
+            <a href="lounge.html">The Lounge</a>
+            <a href="careers.html">Careers</a>
+            <a href="gift-cards.html">Gift Cards</a>
+            <a href="private-events.html">Private Events</a>
             <a href="#" class="btn-reserve mobile-reserve">RESERVE</a>
         </nav>
     </header>
@@ -60,10 +60,10 @@ const footerHTML = `
                 </div>
                 <div class="footer-section">
                     <h4>Explore</h4>
-                    <p><a href="story/index.html">Our Story</a></p>
-                    <p><a href="wine/index.html">Wine Program</a></p>
-                    <p><a href="../giftcards.canlis.com/index.html">Gift Cards</a></p>
-                    <p><a href="careers/index.html">Careers</a></p>
+                    <p><a href="our-story.html">Our Story</a></p>
+                    <p><a href="wine.html">Wine Program</a></p>
+                    <p><a href="gift-cards.html">Gift Cards</a></p>
+                    <p><a href="careers.html">Careers</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -144,7 +144,7 @@ styleSheet.innerText = `
     @media (min-width: 769px) {
         .desktop-explore { display: block; cursor: pointer; font-size: 0.75rem; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; background: none; border: none; color: var(--color-text); }
     }
-`;
+` 
 document.head.appendChild(styleSheet);
 
 /* ==========================================
